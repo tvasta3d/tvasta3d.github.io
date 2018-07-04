@@ -1,0 +1,30 @@
+<!-- Video container -->
+<div class="video-container">
+<video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
+  <source id="ss" src="assets/videos/video1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+</div>
+
+
+<div class="tva-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+
+<div class="container align-center">
+  <div class="row justify-content-md-center">
+    <div class="tva-white col-md-10">
+      <!-- <h1 class="tva-section-title tva-bold pb-3 tva-fonts-style display-1">
+                Tvasta
+            </h1> -->
+
+      <p class="tva-text pb-3 tva-fonts-style display-5" style="weight:100">
+        We are a technology focused company with a mission to accelerate the adoption and research on 3D Printing technologies.
+      </p>
+
+    </div>
+  </div>
+</div>
+<div class="tva-arrow hidden-sm-down" aria-hidden="true">
+  <a href="#next">
+        <i class="mbri-down tva-iconfont"></i>
+    </a>
+</div>

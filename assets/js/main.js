@@ -6,3 +6,6 @@ $('.navbar').css('background','#333333');
 $('.navbar').css('background','transparent');
 }
 });
+
+
+// Video Slider on homepage_slider
