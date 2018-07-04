@@ -2,7 +2,7 @@
 /* font-family: 'Muli', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
 font-family: 'PT Serif', serif;
-
+font-family: 'PT Serif Caption', serif;
 
 section {
   background-color: #eeeeee; }
@@ -564,4 +564,13 @@ transition-duration: 1s;}
     text-decoration:underline;
 }
 
-/* Carousel With Video */
+h4 {
+  font-family: 'PT Serif', serif;
+}
+
+.nav-link {
+  font-family: 'PT Serif Caption', serif;
+}
+.display-4 {
+  font-family: 'PT Serif Caption', serif;
+}
