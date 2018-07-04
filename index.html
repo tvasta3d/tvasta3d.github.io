@@ -21,8 +21,9 @@
   <link rel="stylesheet" href="assets/css/gallery-style.css">
   <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
   <!-- Additional fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
 
@@ -263,9 +264,16 @@
           </div> -->
         </div>
 
+        <!-- paroller initial -->
+
+        <!-- <div class="my-paroller" data-paroller-factor-lg="0.4" data-paroller-factor-xs="0.2" data-paroller-factor-sm="0.3" data-paroller-type="foreground" data-paroller-direction="horizontal" > -->
         <div class="tva-figure align-center" style="width: 40%;">
+          <!-- <div class="my-element"> -->
           <img src="assets/images/concrete.png" alt="tvasta">
+        <!-- </div> -->
+      <!-- </div> -->
         </div>
+
 
         <div class="block-content align-right">
           <div class="card pl-3 pr-3 pb-5 nopadding">
@@ -391,10 +399,12 @@
         </div> -->
 
         <div class="tva-figure align-center" style="width: 30%;">
-          <img src="assets/images/partner.png" alt="tvasta">
+          <img src="assets/images/concrete.png" alt="tvasta">
           <hr class="line" style="width: 25%;">
-          <span class="mbri-rocket tva-iconfont"></span><br><br>
+          <!-- <span class="mbri-rocket tva-iconfont"></span><br><br> -->
           IOT | Biometrics | BIM | Engineering software
+        </div>
+        <div id="my-element">
         </div>
 
 
@@ -462,6 +472,8 @@
               </p>
             </div>
           </div>
+
+
 
         </div>
       </div>
@@ -681,6 +693,7 @@
   <script src="assets/js/mbr-clients-slider.js"></script>
   <script src="assets/js/t-script.js"></script>
   <script src="assets/js/formoid.min.js"></script>
+  <script src="assets/js/jquery.paroller.min.js"></script>
   <script>
     // Navbar Color & Transparency
     $(window).scroll(function () {
@@ -704,6 +717,15 @@
         video.play();
 
    }
+   </script>
+
+   <!-- paroller -->
+   <script>
+      //a) initialize paroller.js
+      $('.my-paroller').paroller();
+
+      //b) initialize paroller.js and set attributes
+      $(".my-element").paroller({ factor: -0.5, factorlg: 0.2, factorSm: 0.3, type: 'foreground', direction: 'vertical' });
    </script>
 
 

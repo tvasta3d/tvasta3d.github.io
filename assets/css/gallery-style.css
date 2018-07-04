@@ -18,9 +18,9 @@
 .tva-gallery .icon-focus,
 .tva-gallery .icon-video {
   position: absolute;
-  top: calc(50% - 32px);
-  left: calc(50% - 24px);
-  font-family: 'MobiriseIcons' !important;
+  top: 50%;
+  left: 50%;
+  font-family: 'PT Serif Caption', serif;
   font-size: 3rem !important;
   color: #fff;
   opacity: 0;
@@ -28,7 +28,8 @@
   z-index: 5; }
 
 .tva-gallery .icon-focus::before {
-  content: '\e96b'; }
+  /* content: '\e96b';  */
+}
 
 .tva-gallery .icon-video::before {
   content: '\e95c'; }

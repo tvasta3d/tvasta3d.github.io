@@ -568,9 +568,35 @@ h4 {
   font-family: 'PT Serif', serif;
 }
 
-.nav-link {
-  font-family: 'PT Serif Caption', serif;
+.nav-link .nav-item {
+  font-family: 'PT Serif Caption', serif !important;
 }
 .display-4 {
   font-family: 'PT Serif Caption', serif;
+}
+
+a {
+  font-family: 'PT Serif Caption', serif;
+}
+
+.tva-gallery-item img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.tva-gallery-item {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.display-5 {
+  font-family: 'Open Sans', sans-serif; !important
+}
+
+p {
+  font-family: 'Open Sans', sans-serif; !important
 }
