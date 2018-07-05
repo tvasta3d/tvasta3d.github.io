@@ -25,7 +25,13 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-
+  <style>
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+      display: block;
+    }
+  </style>
 
 </head>
 
@@ -108,7 +114,7 @@
                     </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link link text-white display-4" href="http://blog.tvastagroup.in" target="_blank">
+            <a class="nav-link link text-white display-4" href="http://www.tvastagroup.in/blog-maintenance.html" target="_blank">
 
                         Blog
                     </a>
@@ -135,7 +141,7 @@
             <div class="tva-overlay"></div>
             <div class="container container-slide">
               <div class="video-container">
-              <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
+                <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
                 <source id="ss" src="assets/videos/homeslides/bioprinting.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
@@ -156,7 +162,7 @@
             <div class="tva-overlay"></div>
             <div class="container container-slide">
               <div class="video-container">
-              <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
+                <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
                 <source id="ss" src="assets/videos/homeslides/concrete.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
@@ -174,7 +180,7 @@
             <div class="tva-overlay"></div>
             <div class="container container-slide">
               <div class="video-container">
-              <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
+                <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
                 <source id="ss" src="assets/videos/homeslides/sls.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
@@ -192,7 +198,7 @@
             <div class="tva-overlay"></div>
             <div class="container container-slide">
               <div class="video-container">
-              <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
+                <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150" onended="run();">
                 <source id="ss" src="assets/videos/homeslides/waam.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
@@ -222,24 +228,24 @@
     <div class="container">
       <!-- <h2 class="tva-section-title pb-2 tva-fonts-style display-2">What We Do</h2> -->
       <div class="media-container-row pt-5">
-        <div class="block-content align-right">
+        <div class="block-content align-center">
           <div class="card pl-3 pr-3 pb-5 nopadding">
             <div class="tva-card-img-title">
               <div class="card-img pb-3">
                 <!-- <span class="mbri-briefcase tva-iconfont"></span> -->
               </div>
               <div class="tva-crt-title">
-                <h4 class="card-title py-2 tva-crt-title tva-fonts-style display-6">
+                <h4 class="card-title py-2 tva-crt-title tva-fonts-style display-6 ">
                                 Product Design
                             </h4>
               </div>
             </div>
             <div class="card-box">
               <p class="tva-text tva-section-text tva-fonts-style display-7">
-                <ul class="block-content align-right">
-                  <li class="block-content align-right">Driven by Deep Personalization</li>
-                  <li class="block-content align-right">Value-Economics Trade-offs</li>
-                  <li class="block-content align-right">Crafted with a great sense of empathy</li>
+                <ul class="block-content align-left">
+                  <li class="block-content align-left">Driven by Deep Personalization</li>
+                  <li class="block-content align-left">Value-Economics Trade-offs</li>
+                  <li class="block-content align-left">Crafted for usability</li>
                 </ul>
               </p>
             </div>
@@ -270,8 +276,8 @@
         <div class="tva-figure align-center" style="width: 40%;">
           <!-- <div class="my-element"> -->
           <img src="assets/images/concrete.png" alt="tvasta">
-        <!-- </div> -->
-      <!-- </div> -->
+          <!-- </div> -->
+          <!-- </div> -->
         </div>
 
 
@@ -360,7 +366,7 @@
       <!-- <h2 class="tva-section-title pb-2 tva-fonts-style display-2">What We Do</h2> -->
       <div class="media-container-row pt-5">
         <!-- <div class="block-content align-right"> -->
-          <!-- <div class="card pl-3 pr-3 pb-5">
+        <!-- <div class="card pl-3 pr-3 pb-5">
             <div class="tva-card-img-title">
               <div class="card-img pb-3">
                 <span class="mbri-print tva-iconfont"></span>
@@ -402,7 +408,35 @@
           <img src="assets/images/concrete.png" alt="tvasta">
           <hr class="line" style="width: 25%;">
           <!-- <span class="mbri-rocket tva-iconfont"></span><br><br> -->
-          IOT | Biometrics | BIM | Engineering software
+          <!-- IOT | Biometrics | BIM | Engineering software -->
+          <div class="container">
+            <div id="carouselContent" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                Let's Build Things Together with 3D Printing &
+                <div class="carousel-item active text-center p-4">
+                  <p>Internet of Things</p>
+                </div>
+                <div class="carousel-item text-center p-4">
+
+                  <p>Builing Information Modeling</p>
+                </div>
+                <div class="carousel-item text-center p-4">
+
+                  <p>FEM Analysis</p>
+                </div>
+                <div class="carousel-item text-center p-4">
+
+                  <p>Medical Modeling</p>
+                </div>
+                <div class="carousel-item text-center p-4">
+
+                  <p>Biomechanical Analysis</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
         <div id="my-element">
         </div>
@@ -416,7 +450,7 @@
               </div>
               <div class="tva-crt-title">
                 <h4 class="card-title py-2 tva-crt-title tva-fonts-style display-6">
-                                Next Level of System Development
+                                Collaboration with Industry Majors
                             </h4>
               </div>
             </div>
@@ -438,7 +472,7 @@
               </div>
               <div class="tva-crt-title">
                 <h4 class="card-title py-2 tva-crt-title tva-fonts-style display-6">
-                                Peer Startups
+                                Engagement with Peer Startups
                             </h4>
               </div>
             </div>
@@ -460,7 +494,7 @@
               <div class="tva-crt-title">
                 <h4 class="card-title py-2 tva-crt-title tva-fonts-style display-6">
 
-                                Get Free Personalized Insights
+                                Building a Community
                             </h4>
               </div>
             </div>
@@ -577,7 +611,7 @@
                             Ready for offers and cooperation
                         </h5>
               <p class="tva-text align-left tva-fonts-style display-7">
-                Phone: +91-9791020352 <br> Email: mail@tvasta.com
+                Phone: +91-9444203659 <br> Email: adithyavs@tvastagroup.in
               </p>
             </div>
           </div>
@@ -608,7 +642,7 @@
     </div>
   </section>
 
-<!-- Start footer -->
+  <!-- Start footer -->
   <section once="" class="cid-qWamQiXzgz" id="footer7-d">
 
 
@@ -624,13 +658,13 @@
 
 
             <li class="foot-menu-item tva-fonts-style display-7">
-              <a class="text-white" href="index.html" >Home</a>
+              <a class="text-white" href="index.html">Home</a>
             </li>
             <!-- <li class="foot-menu-item tva-fonts-style display-7">
               <a class="text-white" href="collaborate.html" >Collaborate</a>
             </li> -->
             <li class="foot-menu-item tva-fonts-style display-7">
-              <a class="text-white" href="about.html" >About Us</a>
+              <a class="text-white" href="about.html">About Us</a>
             </li>
             <!-- <li class="foot-menu-item tva-fonts-style display-7">
               <a class="text-white" href="research.html" >R&D</a>
@@ -639,7 +673,7 @@
               <a class="text-white" href="projects.html">Projects</a>
             </li>
             <li class="foot-menu-item tva-fonts-style display-7">
-              <a class="text-white" href="http://blog.tvastagroup.in" target="_blank">Blog</a>
+              <a class="text-white" href="http://www.tvastagroup.in/blog-maintenance.html" target="_blank">Blog</a>
             </li>
           </ul>
         </div>
@@ -696,37 +730,43 @@
   <script src="assets/js/jquery.paroller.min.js"></script>
   <script>
     // Navbar Color & Transparency
-    $(window).scroll(function () {
-    if ($(window).scrollTop() >= 50) {
-    $('.navbar').css('background','#333333');
-    } else {
-    $('.navbar').css('background','transparent');
-    }
+    $(window).scroll(function() {
+      if ($(window).scrollTop() >= 50) {
+        $('.navbar').css('background', '#333333');
+      } else {
+        $('.navbar').css('background', 'transparent');
+      }
     });
   </script>
   <script>
     // Play Videos in Loop
-    video_count =1;
+    video_count = 1;
     videoPlayer = document.getElementById("ss");
-    video=document.getElementById("my-video");
+    video = document.getElementById("my-video");
 
-    function run(){
-        video_count++;
-        if (video_count == 4) video_count = 1;
-        videoPlayer.setAttribute("src","assets/videos/video"+video_count+".mp4");
-        video.play();
+    function run() {
+      video_count++;
+      if (video_count == 4) video_count = 1;
+      videoPlayer.setAttribute("src", "assets/videos/video" + video_count + ".mp4");
+      video.play();
 
-   }
-   </script>
+    }
+  </script>
 
-   <!-- paroller -->
-   <script>
-      //a) initialize paroller.js
-      $('.my-paroller').paroller();
+  <!-- paroller -->
+  <script>
+    //a) initialize paroller.js
+    $('.my-paroller').paroller();
 
-      //b) initialize paroller.js and set attributes
-      $(".my-element").paroller({ factor: -0.5, factorlg: 0.2, factorSm: 0.3, type: 'foreground', direction: 'vertical' });
-   </script>
+    //b) initialize paroller.js and set attributes
+    $(".my-element").paroller({
+      factor: -0.5,
+      factorlg: 0.2,
+      factorSm: 0.3,
+      type: 'foreground',
+      direction: 'vertical'
+    });
+  </script>
 
 
   <div id="scrollToTop" class="scrollToTop tva-arrow-up"><a style="text-align: center;"><i></i></a></div>
